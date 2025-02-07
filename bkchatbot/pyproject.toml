@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bkchatbot"
+version = "0.1.0"
+description = ""
+authors = ["Li_Shun <gn01277086@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.0"
+line-bot-sdk = "^3.14.2"
+openai = "^1.59.3"
+langchain-openai = "^0.2.14"
+qdrant-client = "^1.12.2"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.14"
+transformers = "^4.48.2"
+accelerate = "^1.3.0"
+bitsandbytes = "^0.45.1"
+torch = { version = "2.6.0", url = "https://download.pytorch.org/whl/cu126/torch-2.6.0%2Bcu126-cp310-cp310-win_amd64.whl" }
+torchvision = { version = "0.15.0", url = "https://download.pytorch.org/whl/cu126/torchvision-0.15.0%2Bcu126-cp310-cp310-win_amd64.whl" }
+torchaudio = { version = "2.0.1", url = "https://download.pytorch.org/whl/cu126/torchaudio-2.0.1%2Bcu126-cp310-cp310-win_amd64.whl" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
